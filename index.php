@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Q7 Saigon Riverside Residence</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
 
   </head>
 
@@ -38,10 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Tổng quan dự án</a>
+              <a class="nav-link js-scroll-trigger active" href="#about">Tổng quan dự án</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Tiện ích</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Giá bán</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Liên hệ</a>
@@ -72,101 +75,70 @@
       </div>
     </section>
 
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Vị trí</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sturdy Templates</h3>
-              <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="bg-location" id="services">
     </section>
 
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/1.png">
+              <img class="img-fluid" src="img/info/1.png" alt="">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/2.png">
+              <img class="img-fluid" src="img/info/2.png" alt="">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/3.png">
+              <img class="img-fluid" src="img/info/3.png" alt="">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/4.png">
+              <img class="img-fluid" src="img/info/4.png" alt="">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/5.png">
+              <img class="img-fluid" src="img/info/5.png" alt="">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
+            <a class="portfolio-box" href="img/info/6.png">
+              <img class="img-fluid" src="img/info/6.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/7.png">
+              <img class="img-fluid" src="img/info/7.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/8.png">
+              <img class="img-fluid" src="img/info/8.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/9.png">
+              <img class="img-fluid" src="img/info/9.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/10.png">
+              <img class="img-fluid" src="img/info/10.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/11.png">
+              <img class="img-fluid" src="img/info/11.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <a class="portfolio-box" href="img/info/12.png">
+              <img class="img-fluid" src="img/info/12.png" alt="">
             </a>
           </div>
         </div>
@@ -175,13 +147,18 @@
 
     <section class="bg-dark text-white">
       <div class="container text-center">
-        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/nvo-ZSVGxGM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </section>
 
     <section id="contact">
       <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <img class="" src="img/gia.jpg" alt="">
+          </div>
+        </div>
+        <br/>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Hãy liên hệ với tôi ngay!</h2>
@@ -192,12 +169,12 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>0966-733-629</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
-              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+              <a href="mailto:your-email@your-domain.com">thomvuthi@gmail.com</a>
             </p>
           </div>
         </div>
