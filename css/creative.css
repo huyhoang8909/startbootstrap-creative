@@ -39,7 +39,33 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/0009.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+@media (max-width: 400px) {
+  .bg-primary {
+    height: auto !important;
+  }
+}
+
+.bg-location {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/0006.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
 }
 
 .bg-dark {
@@ -49,7 +75,7 @@ h6 {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
-
+  
 section {
   padding: 8rem 0;
 }
@@ -169,7 +195,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/0033.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
